@@ -20,7 +20,7 @@ then
     echo  -e "access_key = \"$access_key\"\n\
     secret_key = \"$secret_key\"\n\
     region     = \"$region\"\n\
-    env        = \"$env\"" > iac/env.tfvars
+    env        = \"$env\"" > env.tfvars
 fi
 
 if [ ! -f ./terraform ] 
