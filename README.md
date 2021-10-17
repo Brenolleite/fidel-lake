@@ -9,8 +9,6 @@ $ chmod +x setup.sh
 
 Input the variables for your AWS Account Enviroment, and be happy =]
 
-After the configuration to run the terraform again just use ```terraform apply -var-file=env.tfvars``` into IAC folder.
-
 ## In other enviroments ##
 
 You have to setup terraform enviroment, and then create into IAC folder a file with the following pattern and env.tfvars name:
